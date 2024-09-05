@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 import final_prompts
 
-anthropic_client = anthropic.Anthropic(api_key="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")
+anthropic_client = anthropic.Anthropic(api_key=os.environ.get('ANTHROPIC_API_KEY'))
 
 beginSentence = "Hello Mo, I'm Eunoia. It's nice to meet you. Welcome to our first session. How are you feeling about being here today?"
 
