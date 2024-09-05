@@ -1,28 +1,2 @@
-# Node.js
+node_modules\n.env\nbuild\n.DS_Store
 node_modules/
-npm-debug.log
-yarn-error.log
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Build files
-/build
-/dist
-
-# IDE files
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
